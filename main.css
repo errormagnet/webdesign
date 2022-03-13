@@ -1,0 +1,124 @@
+main {
+    margin-top: 60px;
+}
+
+#product-overview {
+    background: linear-gradient(to top, rgba(189, 195, 199, 0.4), transparent),
+     url('./images/bg.png') left 0% bottom 30%/cover no-repeat,
+     rgba(189, 195, 199, 0.2);
+    /* background-size: cover;
+    background-position: left 0% bottom 30%;
+    background-repeat: no-repeat; */
+    width: 100vw;
+    height: 55vh;
+    position: relative;
+    padding: 10px;
+}
+
+.section-title {
+    color: #2ddf5c;
+    text-align: center;
+}
+
+.plan__cards {
+    width: 90%;
+    margin: auto;
+}
+
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    margin: 0;
+}
+
+.plan {
+    background-color: #d5ffdc;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    padding: 8px;
+    margin: 8px;
+    width: 30%;
+    border-radius: 8px;
+}
+
+.plan__title {
+    color: #0e4f1f;
+}
+
+.plan__price {
+    color: #858585;
+}
+
+.plan__list {
+    list-style: none;
+    padding: 0px;
+}
+
+.plan__list li {
+    margin: 2px;
+}
+
+.plan--higlighted {
+    background-color: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.plan--higlighted .plan__price {
+    color: #0e4f1f;
+}
+
+.plan--higlighted .plan__title {
+    color: white;
+    margin-top: 8px;
+}
+
+.plan_annotation {
+    background-color: white;
+    padding: 8px;
+    color: #19b84c;
+    display: inline-block;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+.marketing {
+    margin-top: 32px;
+    background-color: #ff1b68;
+    text-align: center;
+}
+
+.marketing .section-title {
+    padding: 20px;
+    color: white;
+}
+
+.marketing--lists {
+    color: white;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.marketing--list {
+    display: inline-block;
+    width: 30%;
+}
+
+.marketing--list p {
+    font-weight: bold;
+}
+
+.marketing--value-container {
+    background-color: #ffcede;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    border: solid black 4px;
+    margin: 0 auto;
+}
+
+.marketing--value-container svg {
+    padding: 14px;
+}
